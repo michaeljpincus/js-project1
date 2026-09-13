@@ -1,0 +1,75 @@
+Borough,Area,Area Type,Percent Foreign-born (%),Top 1 Country,Top 1 % of Foreign-born,Top 2 Country,Top 2 % of Foreign-born,Top 3 Country,Top 3 % of Foreign-born,Top 4 Country,Top 4 % of Foreign-born,Top 5 Country,Top 5 % of Foreign-born
+Bronx,Claremont-Mount Eden,Neighborhood,36,Dominican Republic,51.3,Mexico,9.4,Ghana,6.6,Ecuador,2.6,Jamaica,2.6
+Bronx,Concourse,Neighborhood,36.6,Dominican Republic,41.2,Ghana,9.1,Mexico,8.3,Ecuador,6.6,Jamaica,3.3
+Bronx,Bedford Park,Neighborhood,43.9,Dominican Republic,52.5,Mexico,9.8,Ghana,3.8,Ecuador,2.9,Bangladesh,2.6
+Bronx,Fordham Heights,Neighborhood,47.2,Dominican Republic,55.5,Mexico,13.2,Ghana,6.8,Honduras,4.5,Guatemala,1.8
+Bronx,Kingsbridge Heights-Van Cortlandt Village,Neighborhood,39.2,Dominican Republic,54.5,Mexico,5.2,Colombia,3.9,Cuba,3.1,Ethiopia,2.7
+Bronx,Mount Hope,Neighborhood,45.7,Dominican Republic,52,Ghana,14,Mexico,4.6,Ecuador,3.1,Togo,2.6
+Bronx,Norwood,Neighborhood,45.2,Dominican Republic,43.6,Mexico,12.1,Bangladesh,9.4,Ecuador,3.3,Jamaica,2.6
+Bronx,University Heights-Morris Heights,Neighborhood,43,Dominican Republic,66.3,Mexico,6.9,Ghana,4.6,Jamaica,2.3,Ecuador,2.1
+Bronx,Eastchester-Edenwald-Baychester,Neighborhood,36.4,Jamaica,51.1,Dominican Republic,9.6,Ghana,4.9,Nigeria,4.5,Guyana,4.2
+Bronx,Wakefield-Woodlawn,Neighborhood,42,Jamaica,34.5,Guyana,13.8,Dominican Republic,11.8,Ghana,5.8,Nigeria,4.9
+Bronx,Williamsbridge,Neighborhood,37.6,Jamaica,37.2,Dominican Republic,19.2,Guyana,5.6,Ghana,5.6,Mexico,3.6
+Bronx,Allerton,Neighborhood,36.9,Dominican Republic,29,Jamaica,9.7,Mexico,6.8,Albania,5.9,Nigeria,4.5
+Bronx,Soundview,Neighborhood,31.8,Dominican Republic,36.5,Mexico,8.6,Ecuador,6.8,Jamaica,6.2,Guyana,5.6
+Bronx,Westchester Square,Neighborhood,43.5,Bangladesh,30,Dominican Republic,26,Mexico,7.6,Ecuador,7.2,Guyana,5.8
+Brooklyn,Bushwick,Neighborhood,31.3,Dominican Republic,22.7,Ecuador,11,Mexico,9.7,China,6.3,Guyana,3.9
+Brooklyn,Sunset Park,Neighborhood,47.4,China,46.7,Mexico,17,Dominican Republic,8.1,Ecuador,4.4,Guatemala,2.6
+Brooklyn,Crown Heights,Neighborhood,30.4,Jamaica,12.4,Trinidad & Tobago,12,Haiti,9.1,Barbados,6.2,Guyana,5.8
+Brooklyn,East Flatbush,Neighborhood,47.5,Jamaica,22.4,Haiti,15.4,Trinidad & Tobago,14.1,Guyana,12.6,Grenada,6.6
+Brooklyn,Flatbush,Neighborhood,41.9,Haiti,17.3,Jamaica,11.2,Trinidad & Tobago,6.4,Mexico,5.6,Pakistan,4.9
+Brooklyn,Midwood,Neighborhood,39.5,Ukraine,13.4,Russia,9.3,Uzbekistan,8.8,Pakistan,6.9,Belarus,4.9
+Brooklyn,Prospect Lefferts Gardens-Wingate,Neighborhood,33.9,Jamaica,16.8,Trinidad & Tobago,14.2,Haiti,11.8,Grenada,8.3,Guyana,5.3
+Brooklyn,Canarsie,Neighborhood,44.7,Jamaica,27.4,Haiti,25.3,Guyana,8.5,Trinidad & Tobago,6.9,Grenada,4.5
+Brooklyn,Cypress Hills,Neighborhood,45.3,Dominican Republic,41.1,Ecuador,14.1,Guyana,11.6,Mexico,3.9,Trinidad & Tobago,2.8
+Brooklyn,East New York,Neighborhood,34.7,Dominican Republic,15.3,Bangladesh,13.8,Guyana,13.7,Jamaica,11.2,Trinidad & Tobago,7.3
+Brooklyn,Flatlands,Neighborhood,41.3,Haiti,21.6,Jamaica,17.4,Guyana,10.4,Trinidad & Tobago,9.9,Grenada,4.1
+Brooklyn,Bath Beach,Neighborhood,51.1,China,36.5,Pakistan,6.1,Ukraine,4.9,Uzbekistan,4.6,Belarus,4.2
+Brooklyn,Bay Ridge,Neighborhood,34,China,15.7,Egypt,6.1,Mexico,5.5,Ukraine,5.3,Yemen,4.4
+Brooklyn,Bensonhurst,Neighborhood,56.7,China,57.7,Ukraine,10.8,Italy,8,Guatemala,7.7,Mexico,6.3
+Brooklyn,Brighton Beach,Neighborhood,71.1,Ukraine,23.2,Russia,17.9,Uzbekistan,9.9,Pakistan,4.3,Georgia,4.1
+Brooklyn,Coney Island,Neighborhood,49.4,Ukraine,30.5,Russia,16.4,China,7.7,Belarus,4.4,Mexico,4.4
+Brooklyn,Dyker Heights,Neighborhood,46.8,China,53.3,Italy,5.5,Egypt,4.6,Malaysia,3.3,Ecuador,3.2
+Brooklyn,Gravesend,Neighborhood,50.8,China,35.9,Ukraine,15.7,Russia,11.5,Uzbekistan,7.9,Mexico,5.3
+Brooklyn,Kensington,Neighborhood,37.7,Bangladesh,22.7,Pakistan,7.3,Uzbekistan,5.1,China,4.2,Azerbaijan,4
+Brooklyn,Madison,Neighborhood,48.5,China,25.3,Ukraine,12.1,Russia,10.2,Georgia,4.9,Uzbekistan,3.7
+Brooklyn,Sheepshead Bay,Neighborhood,49.3,Ukraine,22.4,China,18.8,Russia,13.6,Belarus,4.4,Uzbekistan,4.2
+Manhattan,Chinatown-Two Bridges,Neighborhood,48.2,China,78.1,Dominican Republic,3,Malaysia,2.7,Vietnam,1.8,Bangladesh,1.2
+Manhattan,Lower East Side,Neighborhood,30.2,China,41.7,Dominican Republic,17.8,Russia,3,Mexico,2.9,Vietnam,2.7
+Manhattan,Hell's Kitchen,Neighborhood,31.4,China,11.4,Dominican Republic,8.4,India,6.2,France,3.2,Russia,3.1
+Manhattan,Midtown-Times Square,Neighborhood,36.7,China,12.1,India,10.2,Philippines,6.7,Canada,6.1,Korea,4.8
+Manhattan,East Harlem,Neighborhood,24.6,Dominican Republic,22.3,China,16.3,Mexico,10.3,Ecuador,3.5,Philippines,2.5
+Manhattan,Hamilton Heights-Sugar Hill,Neighborhood,38.4,Dominican Republic,52.4,Ecuador,6,Mexico,4.1,Haiti,3.3,Pakistan,2.3
+Manhattan,Harlem,Neighborhood,23.9,Dominican Republic,23.2,Mexico,4.9,China,3.8,Jamaica,3.7,France,3.6
+Manhattan,Inwood,Neighborhood,41.2,Dominican Republic,69.3,Mexico,6.8,Ecuador,2.8,Peru,2.1,Cuba,1.9
+Manhattan,Washington Heights,Neighborhood,44.1,Dominican Republic,62,Ecuador,5.6,Mexico,4.6,El Salvador,3.2,Cuba,2
+Queens,Astoria,Neighborhood,36.4,Greece,8.1,Mexico,7.6,China,5.5,Ecuador,5.3,Colombia,5
+Queens,Corona,Neighborhood,60.5,Ecuador,27.3,Mexico,18.9,Dominican Republic,16,China,8.7,Colombia,4
+Queens,East Elmhurst,Neighborhood,53.5,Ecuador,18,Dominican Republic,14.5,Mexico,11,Colombia,10.5,Jamaica,5.2
+Queens,Elmhurst,Neighborhood,65.6,China,16.8,Ecuador,12.7,Mexico,10.7,Bangladesh,8.2,Philippines,8.2
+Queens,Forest Hills,Neighborhood,45,China,20.8,Uzbekistan,7.1,India,6.6,Russia,6.3,Colombia,5.9
+Queens,Jackson Heights,Neighborhood,59.5,Colombia,15.5,Ecuador,14.9,Mexico,12.2,China,6.3,Bangladesh,6.2
+Queens,Rego Park,Neighborhood,54,China,19.6,India,8.2,Uzbekistan,7.4,Colombia,6.5,Russia,5
+Queens,Ridgewood,Neighborhood,42.7,Ecuador,21.8,Poland,11.4,Dominican Republic,8,Mexico,7.2,Albania,4.7
+Queens,Sunnyside,Neighborhood,47.4,Ecuador,11.2,Bangladesh,10.6,Mexico,9.9,Colombia,6.5,China,5.3
+Queens,Woodside,Neighborhood,60.2,Mexico,13.4,Bangladesh,11.6,Philippines,10.4,China,9.5,Ecuador,8.3
+Queens,Auburndale,Neighborhood,45.1,China,44,Korea,12.7,Colombia,5,Greece,4.9,Italy,3
+Queens,College Point,Neighborhood,52.7,China,33.5,Dominican Republic,9.5,Ecuador,9.2,Colombia,6.2,Korea,6.2
+Queens,Flushing-Murray Hill,Neighborhood,66.6,China,58.4,Korea,10.3,Colombia,2.5,India,2.1,Ecuador,2
+Queens,Fresh Meadows,Neighborhood,48,China,41.4,Korea,19.9,Uzbekistan,4.4,Pakistan,3.4,Philippines,2.5
+Queens,Jamaica Estates-Holliswood,Neighborhood,53.8,Bangladesh,18.7,Haiti,13.6,Philippines,8,Guyana,7.9,Jamaica,4.5
+Queens,Jamaica Hills-Briarwood,Neighborhood,56.5,Bangladesh,22.1,Guyana,7,Philippines,6.5,China,6.4,Uzbekistan,4.1
+Queens,Queensboro Hill,Neighborhood,60.4,China,65.5,Colombia,4.9,Philippines,3.3,Guyana,2.3,Malaysia,2.3
+Queens,South Ozone Park,Neighborhood,56.9,Guyana,49.4,Trinidad & Tobago,12.6,India,7.6,Dominican Republic,5.1,Ecuador,3.3
+Queens,Richmond Hill,Neighborhood,56.7,Guyana,26.8,India,16,Ecuador,7,Trinidad & Tobago,5.8,Dominican Republic,5.4
+Queens,Woodhaven,Neighborhood,52.5,Dominican Republic,19.5,China,16.3,Ecuador,8.3,Colombia,7.7,Guyana,6
+Queens,Far Rockaway,Neighborhood,34.9,Jamaica,18.8,Guyana,14,El Salvador,10.1,Dominican Republic,8.6,Guatemala,6.3
+Queens,Jamaica,Neighborhood,58.6,Bangladesh,28.8,Guyana,13.4,Guatemala,6.8,Dominican Republic,4.4,Ecuador,4.3
+Queens,Queens Village,Neighborhood,51,Guyana,20.5,Haiti,12.6,Jamaica,11.3,Bangladesh,8,Philippines,5.7
+Queens,Springfield Gardens,Neighborhood,37.9,Jamaica,41.4,Haiti,13.4,Guyana,10.5,Trinidad & Tobago,6.3,Dominican Republic,3.9
+Queens,St. Albans,Neighborhood,41,Jamaica,37.3,Guyana,18.8,Haiti,8.9,Trinidad & Tobago,8,Nigeria,2.7
+Staten Island,Port Richmond,Neighborhood,30.1,Mexico,31.2,Trinidad & Tobago,10.3,Dominican Republic,6.5,China,5.1,Nigeria,4.1
+Staten Island,Rosebank-Shore Acres-Park Hill,Neighborhood,36.9,China,28.7,Dominican Republic,5,Poland,5,Ukraine,3.7,Philippines,3.7
+Staten Island,Grasmere-Arrochar-South Beach-Dongan Hills,Neighborhood,35.9,China,26.9,Ukraine,9.2,Russia,7.1,Albania,5.1,India,3.8
+Staten Island,New Springville-Willowbrook-Bulls Head-Travis,Neighborhood,30.7,China,21.2,Korea,8.2,Egypt,6.5,Israel,4.8,Mexico,4.4
+Staten Island,Great Kills-Eltingville,Neighborhood,20,China,18.2,Russia,13.9,Ukraine,10.7,Egypt,8.8,Italy,7.1

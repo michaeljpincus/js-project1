@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Leaflet: Labels on top of GeoJSON</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  html, body, #map { height: 100%; margin: 0; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+ 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const map = L.map('map').setView([40.7128, -74.0060], 11);
+ 
+  // --- 1. Create custom panes so we control stacking order explicitly ---
+  // Default pane z-indexes: tilePane=200, overlayPane=400, markerPane=600
+  map.createPane('labels');
+  map.getPane('labels').style.zIndex = 650; // above markers/geojson
+  map.getPane('labels').style.pointerEvents = 'none'; // clicks pass through to map below
+ 
+  // --- 2. Base tiles WITHOUT labels (free, no API key, CARTO Positron) ---
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    subdomains: 'abcd',
+    maxZoom: 20
+  }).addTo(map);
+ 
+  // --- 3. Your GeoJSON layer (sits in the normal overlayPane, z=400) ---
+  const geojsonData = {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": { "name": "Sample area" },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-74.02, 40.70],
+            [-73.96, 40.70],
+            [-73.96, 40.75],
+            [-74.02, 40.75],
+            [-74.02, 40.70]
+          ]]
+        }
+      }
+    ]
+  };
+ 
+  L.geoJSON(geojsonData, {
+    style: {
+      color: '#e6194B',
+      weight: 2,
+      fillColor: '#e6194B',
+      fillOpacity: 0.5
+    }
+  }).addTo(map);
+ 
+  // --- 4. Labels-ONLY tile layer, rendered in the custom high-z pane ---
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png', {
+    pane: 'labels',
+    subdomains: 'abcd',
+    maxZoom: 20
+  }).addTo(map);
+ 
+</script>
+</body>
+</html>
+ 
