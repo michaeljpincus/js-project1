@@ -215,12 +215,20 @@ html, body {
   padding-top: 0;
 }
  
-.country-row img,
+.country-row img {
+  width: 20px;
+  height: 15px;
+  object-fit: cover;
+  border-radius: 2px;
+  transform: translateY(-0.5px);
+}
+
 .flag-country img {
   width: 20px;
   height: 15px;
   object-fit: cover;
   border-radius: 2px;
+  transform: translateY(0.8px);
 }
  
 .country-row .pct {
@@ -234,7 +242,6 @@ html, body {
   align-items: center;
   gap: 4px;
   white-space: nowrap;
-  vertical-align: middle;
 }
  
 .label-muted {

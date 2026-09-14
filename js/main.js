@@ -87,7 +87,7 @@ map.on('load', () => {
 
             popup
                 .setLngLat(e.lngLat)
-                .setHTML(`<strong>${props.name}</strong><br><span class="label-muted">Top foreign-born country:</span><br><span class="flag-country">${flagImg}${props['Top 1 Country']}</span>`)
+                .setHTML(`<strong>${props.name}</strong><br><span class="label-muted">Top foreign-born country:</span><br><span class="flag-country">${flagImg}<span>${props['Top 1 Country']}</span></span>`)
                 .addTo(map);
 }
     });
