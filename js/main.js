@@ -1,10 +1,10 @@
-// Access token configured only for github url requests 
+// Access token configured only for michaeljpincus.github.io url requests 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWpwanBnIiwiYSI6ImNtdTBlODVjeTB5bm4yenBtcW15Y3dmbzgifQ.Gyy9P1sfCGT2QtizeNiqgw'
 
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mjpjpg/cmk08nn4w001l01s5eel5hzhs',
-    center: [-73.9857, 40.7184],
+    center: [-73.9857, 40.71ß84],
     zoom: 9.75,
     minZoom: 9.75,
     maxZoom: 13,
