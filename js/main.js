@@ -82,7 +82,7 @@ map.on('load', () => {
             const props = e.feature.properties;
             const iso2 = props['Top 1 ISO2'];
             const flagImg = iso2
-                ? `<img src="https://flagcdn.com/w20/${iso2.toLowerCase()}.png" style="vertical-align:middle; margin-right:4px;" width="20" alt="${props['Top 1 Country']} flag">`
+                ? `<img src="https://flagcdn.com/w20/${iso2.toLowerCase()}.png" width="20" alt="${props['Top 1 Country']} flag">`
                 : '';
 
             popup
@@ -185,7 +185,7 @@ function showPanel(props) {
         const iso2 = props[`Top ${i} ISO2`];
 
         const row = document.createElement('div');
-        row.ClassName = 'country-row';
+        row.className = 'country-row';
         row.innerHTML = `
             ${iso2 ? `<img src="https://flagcdn.com/w20/${iso2.toLowerCase()}.png" srcset="https://flagcdn.com/w40/${iso2.toLowerCase()}.png 2x" width="20" alt="${country} flag">` : ''}
             <span>${country}</span>
