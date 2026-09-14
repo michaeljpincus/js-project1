@@ -167,3 +167,22 @@ body { margin: 0; padding: 0; }
 .mapboxgl-ctrl-bottom-right {
   bottom: 25px;
 }
+
+.mapboxgl-ctrl-bottom-left {
+  bottom: 30px;   /* raise it up from the bottom edge */
+  left: 5px;     /* adjust horizontal position */
+}
+
+@media (max-width: 768px) {
+  #reset-zoom {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #info-panel.visible {
+    display: none !important;
+  }
+}
+
+
