@@ -1,6 +1,6 @@
 // Access token configured only for michaeljpincus.github.io url requests 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWpwanBnIiwiYSI6ImNtdTBlODVjeTB5bm4yenBtcW15Y3dmbzgifQ.Gyy9P1sfCGT2QtizeNiqgw'
-
+//mapboxgl.accessToken = MAPBOX_TOKEN
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mjpjpg/cmk08nn4w001l01s5eel5hzhs',
@@ -83,7 +83,7 @@ map.on('load', () => {
             const props = e.feature.properties;
             const iso2 = props['Top 1 ISO2'];
             const flagImg = iso2
-                ? `<img src="https://flagcdn.com/w20/${iso2.toLowerCase()}.png" width="20" alt="${props['Top 1 Country']} flag">`
+                ? `<img src="https://flagsapi.com/${iso2}/flat/64.png" width="20" alt="${props['Top 1 Country']} flag">`
                 : '';
 
             popup
@@ -188,7 +188,7 @@ function showPanel(props) {
         const row = document.createElement('div');
         row.className = 'country-row';
         row.innerHTML = `
-            ${iso2 ? `<img src="https://flagcdn.com/w20/${iso2.toLowerCase()}.png" srcset="https://flagcdn.com/w40/${iso2.toLowerCase()}.png 2x" width="20" alt="${country} flag">` : ''}
+            ${iso2 ? `<img src="https://flagsapi.com/${iso2}/flat/64.png" width="20" alt="${country} flag">` : ''}
             <span>${country}</span>
             <span class='pct'>${pct}%</span>`;
         container.appendChild(row);
