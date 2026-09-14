@@ -21,15 +21,18 @@ body { margin: 0; padding: 0; }
   max-width: 400px;
   padding: 24px;
   font: 400 16px/1.4 'News Cycle', sans-serif;
+  text-align: justify;
 }
 
 #splash-content h1 {
-  font: 600 28px/1.2 'News Cycle', sans-serif;
+  font: 600 25px/1.2 'News Cycle', sans-serif;
   margin-bottom: 12px;
+  text-align:
 }
 
 #splash-close {
-  margin-top: 20px;
+  display: block;
+  margin: 20px auto 0 auto; 
   padding: 10px 24px;
   background: #222;
   color: white;
