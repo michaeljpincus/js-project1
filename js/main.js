@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWpwanBnIiwiYSI6ImNtdTBlODVjeTB5bm4yenBtcW15Y
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mjpjpg/cmk08nn4w001l01s5eel5hzhs',
-    center: [-73.9857, 40.71ß84],
+    center: [-73.9857, 40.7184],
     zoom: 9.75,
     minZoom: 9.75,
     maxZoom: 13,
