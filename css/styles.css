@@ -257,5 +257,17 @@ html, body {
   .mapboxgl-ctrl-top-left {
     display: none !important;
   }
+
+  #splash-content {
+    font-size: 16px;
+  }
+
+  #splash-content h1 {
+    font-size: 22px;
+  }
+
+  #splash-close {
+    font-size: 18px;
+  }
 }
  
