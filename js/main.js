@@ -20,6 +20,9 @@ let hoveredPolygonId = null;
 const initialCenter = [-73.9857, 40.7184]
 const initialZoom = 9.75
 
+document.getElementById('splash-close').addEventListener('click', () => {
+  document.getElementById('splash').classList.add('hidden');
+});
 
 map.on('load', () => {
     map.addSource('neighborhoods', {
