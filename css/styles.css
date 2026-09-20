@@ -76,7 +76,7 @@ html, body {
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  box-sizing: border-box;
   background: white;
   padding: 12px 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -84,6 +84,20 @@ html, body {
   text-align: left;
   opacity: 1;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+#neighborhood-select {
+  font: 400 18px/1.3 'News Cycle', sans-serif;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  max-width: 260px;
+  cursor: pointer;
 }
  
 #map-footer {
@@ -104,7 +118,7 @@ html, body {
  
 #reset-zoom {
   position: absolute;
-  top: 70px;
+  top: 80px;
   left: 50px;
   z-index: 1;
   padding: 7px 11px;
@@ -123,7 +137,7 @@ html, body {
 }
  
 .mapboxgl-ctrl-top-left {
-  top: 60px;
+  top: 70px;
 }
  
 .mapboxgl-ctrl-bottom-right {
@@ -131,16 +145,16 @@ html, body {
 }
  
 .mapboxgl-ctrl-bottom-left {
-  bottom: 30px; /* raise it up from the bottom edge */
-  left: 5px;    /* adjust horizontal position */
+  bottom: 30px;
+  left: 5px;  
 }
- 
+
 /* ==========================================================================
    Info Panel
    ========================================================================== */
 #info-panel {
   position: absolute;
-  top: 70px;
+  top: 80px;
   right: 10px;
   width: 300px;
   max-height: calc(100% - 40px);
@@ -276,5 +290,17 @@ html, body {
   #splash-close {
     font-size: 18px;
   }
+
+  #map-title {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  #neighborhood-select {
+    font-size: 16px;
+    max-width: 100%;
+  }
 }
+
  
