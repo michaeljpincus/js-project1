@@ -316,6 +316,8 @@ html, body {
     z-index: 3; /* above #map-footer (z-index: 1) */
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
 
     opacity: 1;
     transform: translateY(100%);
@@ -354,6 +356,14 @@ html, body {
     margin: -8px auto 10px;
     border-radius: 2px;
     background: #ccc;
+  }
+
+  #info-panel::-webkit-scrollbar {
+    display: none;            
+  }
+
+  .mapboxgl-popup {
+    display: none !important;
   }
 }
  
