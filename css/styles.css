@@ -306,7 +306,7 @@ html, body {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 30vh;
+    height: 35vh;
     max-height: 50vh;
     box-sizing: border-box;
     padding: 16px 16px calc(16px + env(safe-area-inset-bottom, 0px));
